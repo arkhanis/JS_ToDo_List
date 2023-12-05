@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>JS_ToDo_List</title>
+  </head>
+  <body>
+    <main class="main roundBorder">
+      <!--Dates-->
+      <div class="date">
+        <div class="dateLeft">
+          <div id="dateNumber"></div>
+          <div id="dateMonth"></div>
+          <div id="dateYear"></div>
+        </div>
+        <div id="dateText"></div>
+      </div>
+      <!--Form-->
+      <form onsubmit="addNewTask(event)">
+        <input
+          type="text"
+          name="taskText"
+          autocomplete="off"
+          placeholder="New Task"
+          class="roundBorder"
+          id=""
+        />
+        <button type="submit" class="addTaskButton">+</button>
+        <button
+          type="button"
+          class="orderButton roundBorder"
+          onclick="renderOrderTasks()"
+        >
+          Ordenar
+        </button>
+      </form>
+      <!--Tasks-->
+      <div id="tasksContainer"></div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
