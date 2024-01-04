@@ -1,13 +1,13 @@
 # Project: ToDo app
 
 ## About the project 🌟
-### [Live Demo](https://https://arkhanis.github.io/JS_ToDo_List/)
+### [Live Demo](https://arkhanis.github.io/JS_ToDo_List/)
 ### `Description:` 
 This project is a ToDo app.
 ### `Features:`
 - Add task.
 - Remove task.
-- Sort tasks by creation date.
+- Sort tasks by tasks done.
 - Build using HTML, CSS, and JavaScript.
 
 ## Tecnologies 🚀
